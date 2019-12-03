@@ -5,7 +5,13 @@
   },
   "resources" : [
     {
-      "filename" : "Scan_17-49-25.arobject"
+      "filename" : "keyboard.arobject"
+    },
+    {
+      "filename" : "nub.arobject"
+    },
+    {
+      "filename" : "xbox.arobject"
     }
   ]
 }

@@ -66,7 +66,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             let plane = SCNPlane(width: CGFloat(objectAnchor.referenceObject.extent.x * 0.8), height: CGFloat(objectAnchor.referenceObject.extent.y * 0.5))
             plane.cornerRadius = plane.width * 0.125
             
-            let displayScene = SKScene(fileNamed: "product")
+            var displayScene = SKScene(fileNamed: "keyboard")
+            if (objectAnchor.referenceObject.name == "xbox") {
+                displayScene = SKScene(fileNamed: "xbox")
+            }
+            
+            print(objectAnchor.referenceObject.name as Any)
             
             plane.firstMaterial?.diffuse.contents = displayScene
             plane.firstMaterial?.isDoubleSided = true

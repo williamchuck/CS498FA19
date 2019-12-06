@@ -5,6 +5,9 @@
   },
   "resources" : [
     {
+      "filename" : "eyedrop.arobject"
+    },
+    {
       "filename" : "keyboard.arobject"
     },
     {

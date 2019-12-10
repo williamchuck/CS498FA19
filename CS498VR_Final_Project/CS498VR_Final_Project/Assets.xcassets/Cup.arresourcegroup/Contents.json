@@ -5,16 +5,19 @@
   },
   "resources" : [
     {
-      "filename" : "eyedrop.arobject"
+      "filename" : "airpods.arobject"
+    },
+    {
+      "filename" : "iphone.arobject"
     },
     {
       "filename" : "keyboard.arobject"
     },
     {
-      "filename" : "mouse.arobject"
+      "filename" : "nub.arobject"
     },
     {
-      "filename" : "nub.arobject"
+      "filename" : "water.arobject"
     },
     {
       "filename" : "xbox.arobject"

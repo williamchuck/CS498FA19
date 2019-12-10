@@ -14,6 +14,7 @@
 		930BDE4523908E5C00A9FAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930BDE4423908E5C00A9FAB7 /* Assets.xcassets */; };
 		930BDE4823908E5C00A9FAB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930BDE4623908E5C00A9FAB7 /* LaunchScreen.storyboard */; };
 		930BDE502390963C00A9FAB7 /* keyboard.sks in Resources */ = {isa = PBXBuildFile; fileRef = 930BDE4F2390963C00A9FAB7 /* keyboard.sks */; };
+		93CD3AE223A0641700256E4D /* keyboard_detail.sks in Resources */ = {isa = PBXBuildFile; fileRef = 93CD3AE123A0641700256E4D /* keyboard_detail.sks */; };
 		93E3CA7A23970EE700215E44 /* xbox.sks in Resources */ = {isa = PBXBuildFile; fileRef = 93E3CA7923970EE700215E44 /* xbox.sks */; };
 		A64E88BE239CD08E000D8D76 /* eyedrop_detail.sks in Resources */ = {isa = PBXBuildFile; fileRef = A64E88BD239CD08E000D8D76 /* eyedrop_detail.sks */; };
 		A658BA71239B70E100D4FEEC /* mouse.sks in Resources */ = {isa = PBXBuildFile; fileRef = A658BA70239B70E100D4FEEC /* mouse.sks */; };
@@ -30,6 +31,7 @@
 		930BDE4723908E5C00A9FAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		930BDE4923908E5C00A9FAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		930BDE4F2390963C00A9FAB7 /* keyboard.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = keyboard.sks; sourceTree = "<group>"; };
+		93CD3AE123A0641700256E4D /* keyboard_detail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = keyboard_detail.sks; sourceTree = "<group>"; };
 		93E3CA7923970EE700215E44 /* xbox.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = xbox.sks; sourceTree = "<group>"; };
 		A64E88BD239CD08E000D8D76 /* eyedrop_detail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = eyedrop_detail.sks; sourceTree = "<group>"; };
 		A658BA70239B70E100D4FEEC /* mouse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = mouse.sks; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				930BDE3D23908E5A00A9FAB7 /* art.scnassets */,
 				930BDE3F23908E5A00A9FAB7 /* ViewController.swift */,
 				930BDE4F2390963C00A9FAB7 /* keyboard.sks */,
+				93CD3AE123A0641700256E4D /* keyboard_detail.sks */,
 				93E3CA7923970EE700215E44 /* xbox.sks */,
 				930BDE4123908E5A00A9FAB7 /* Main.storyboard */,
 				930BDE4423908E5C00A9FAB7 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				A64E88BE239CD08E000D8D76 /* eyedrop_detail.sks in Resources */,
 				930BDE4523908E5C00A9FAB7 /* Assets.xcassets in Resources */,
 				930BDE4323908E5A00A9FAB7 /* Main.storyboard in Resources */,
+				93CD3AE223A0641700256E4D /* keyboard_detail.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +310,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 648M49FRP7;
+				DEVELOPMENT_TEAM = KNNM883S2P;
 				INFOPLIST_FILE = CS498VR_Final_Project/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "junting.CS498VR-Final-Project";
+				PRODUCT_BUNDLE_IDENTIFIER = "junliwu.CS498VR-Final-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -327,14 +331,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 648M49FRP7;
+				DEVELOPMENT_TEAM = KNNM883S2P;
 				INFOPLIST_FILE = CS498VR_Final_Project/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "junting.CS498VR-Final-Project";
+				PRODUCT_BUNDLE_IDENTIFIER = "junliwu.CS498VR-Final-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

@@ -62,9 +62,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         //let node = SCNNode()
         if let objectAnchor = anchor as? ARObjectAnchor {
-            let plane = SCNPlane(width: CGFloat(objectAnchor.referenceObject.extent.x * 0.8), height: CGFloat(objectAnchor.referenceObject.extent.y * 0.8))
+            print(objectAnchor.referenceObject.extent.x)
+            let plane = SCNPlane(width: CGFloat(0.2 * 0.8), height: CGFloat(0.2 * 0.8))
             plane.cornerRadius = plane.width * 0.125
-            let detail =   SCNPlane(width: CGFloat(objectAnchor.referenceObject.extent.x * 1.2), height: CGFloat(objectAnchor.referenceObject.extent.y * 1.2))
+            let detail =   SCNPlane(width: CGFloat(0.3), height: CGFloat(0.3))
             detail.cornerRadius = detail.width * 0.125
             var detected = "None"
             var displayScene = SKScene.init()
@@ -73,16 +74,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             resetButton.backgroundColor = UIColor.systemGreen
             resetButton.isHidden = false
             moreinfo.isHidden = false
-            if (objectAnchor.referenceObject.name == "xbox") {
-                //displayScene = SKScene(fileNamed: "xbox")
-                detected = "xbox"
-            }
-            if (objectAnchor.referenceObject.name == "eyedrop"){
-               //displayScene = SKScene(fileNamed: "eyedrop")
-                detected = "eyedrop"
-            }
-            if (objectAnchor.referenceObject.name == "mouse"){
-                detected = "mouse"
+            
+            if(objectAnchor.referenceObject.name != nil){
+                detected = objectAnchor.referenceObject.name!
             }
             
             print(objectAnchor.referenceObject.name as Any)

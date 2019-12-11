@@ -5,7 +5,7 @@
   },
   "resources" : [
     {
-      "filename" : "airpods.arobject"
+      "filename" : "box.arobject"
     },
     {
       "filename" : "iphone.arobject"
@@ -14,13 +14,7 @@
       "filename" : "keyboard.arobject"
     },
     {
-      "filename" : "nub.arobject"
-    },
-    {
       "filename" : "water.arobject"
-    },
-    {
-      "filename" : "xbox.arobject"
     }
   ]
 }

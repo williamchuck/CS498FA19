@@ -5,16 +5,22 @@
   },
   "resources" : [
     {
-      "filename" : "box.arobject"
+      "filename" : "bluebottle.arobject"
     },
     {
-      "filename" : "iphone.arobject"
+      "filename" : "box.arobject"
     },
     {
       "filename" : "keyboard.arobject"
     },
     {
-      "filename" : "water.arobject"
+      "filename" : "logibox.arobject"
+    },
+    {
+      "filename" : "penbox.arobject"
+    },
+    {
+      "filename" : "starbucks.arobject"
     }
   ]
 }
